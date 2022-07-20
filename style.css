@@ -66,6 +66,27 @@
 .header-title p{
     color: lightgray;
     margin-bottom:30px ;
+    opacity: 0;
+}
+
+.slide-left{
+    animation: slideleft 1s linear  forwards;
+}
+p.slide-left{
+    animation-delay: 1s;
+}
+.btn.slide-left{
+    animation-delay: 2s;
+}
+@keyframes slideleft{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
 }
 
 
@@ -120,7 +141,7 @@
     grid-row-gap: 20px;
 }
 .box{
-   box-shadow: 5px 8px 20px -15px;
+   box-shadow: 1px 1px 20px -15px;
    border-radius: 5px;
 }
 .box-banner img{
