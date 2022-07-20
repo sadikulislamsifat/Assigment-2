@@ -9,20 +9,6 @@
            common style 
 ------------------------------ */
 
-#upcoming-btn{
-    background-color: red;
-   
-}
-#upcoming-btn a{
-    color: #fff;
-}
-
-#player-btn{
-    background-color: red;
-}
-#player-btn a{
-    color: #fff;
-}
 .btn{
     padding: 12px 25px;
     background-color: rgb(252, 17, 29);
