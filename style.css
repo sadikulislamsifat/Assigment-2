@@ -15,11 +15,18 @@
     text-decoration: none;
     color: white;
 }
+.btn a{
+    text-decoration: none;
+    color: black;
+}
 .btn i{
     margin-left: 10px;
 }
 #btn{
     background-color: rgb(236, 6, 14);
+    
+}
+#btn a{
     color:#fff;
 }
 
@@ -185,6 +192,9 @@ hr{
     border: 1px solid rgba(132, 130, 130, 0.322);
     border-bottom: none;
 }
+.none{
+    display: none;
+}
 
 
  .view-container{
@@ -238,7 +248,7 @@ hr{
 
 
 /*--------------------------
-         for desktop
+         for tablet
 ---------------------------- */
 
 
@@ -296,3 +306,35 @@ hr{
 
 
 
+
+/*----------------------------------------
+      second page code start from here 
+-------------------------------------------*/
+
+
+
+
+.banner-container{
+    width: 80%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.vs{
+    display: flex;
+    align-items: center;
+}
+.germany, .france{
+    width: 40%;
+}
+.germany img{
+    width: 100%;
+}
+.france img{
+    width: 100%;
+}
+.info-container{
+    text-align: center;
+}
