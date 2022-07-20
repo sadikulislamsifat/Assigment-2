@@ -8,6 +8,21 @@
 /*----------------------------
            common style 
 ------------------------------ */
+
+#upcoming-btn{
+    background-color: red;
+   
+}
+#upcoming-btn a{
+    color: #fff;
+}
+
+#player-btn{
+    background-color: red;
+}
+#player-btn a{
+    color: #fff;
+}
 .btn{
     padding: 12px 25px;
     background-color: rgb(252, 17, 29);
@@ -130,7 +145,7 @@ p.slide-left{
     color: black;
     font-weight: 600;
     font-size: 16px;
-    margin: 20px 0;
+    margin: 12px 0;
     border-radius: 8px;
 
 }
@@ -244,6 +259,16 @@ hr{
     }
     .header-title{
         text-align: center;
+        padding: 10px;
+
+    }
+    .header-banner{
+        margin-top: 30px;
+        padding:0;
+        width: 100%;
+    }
+    .header-banner img{
+        width: 80%;
     }
     .box{
         margin: 20px;
@@ -258,6 +283,9 @@ hr{
         display: block;
         margin: 20px;
         text-align: center;
+    }
+    .foot-menu{
+        padding-bottom: 70px;
     }
     .foot-title{
         padding-top: 50px;
