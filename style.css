@@ -8,7 +8,6 @@
 /*----------------------------
            common style 
 ------------------------------ */
-
 .btn{
     padding: 12px 25px;
     background-color: rgb(252, 17, 29);
@@ -143,7 +142,8 @@ p.slide-left{
 }
 .box{
    box-shadow: 1px 1px 20px -15px;
-   border-radius: 5px;
+   border-radius: 10px;
+   border: 1px solid lightgray;
 }
 .box-banner img{
     width: 100%;
@@ -190,7 +190,6 @@ footer{
 }
 .foot-title{
     padding-top: 50px;
-    margin-top: 40px;
 }
 .foot-title h2{
     color: #fff;
@@ -199,7 +198,7 @@ footer{
     font-size: 40px;
 }
 .foot-menu{
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -213,7 +212,7 @@ footer{
     color: rgb(190, 187, 187);
 }
 hr{
-    margin-top: 50px;
+    margin-top: 20px;
    
     border: 1px solid rgba(132, 130, 130, 0.322);
     border-bottom: none;
@@ -226,6 +225,22 @@ hr{
  .view-container{
     display: none;
 } 
+.social-icon{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.social-icon ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.social-icon ul li a i{
+    color: white;
+    font-size: 40px;
+
+}
 
 
 
@@ -269,7 +284,7 @@ hr{
     }
     .foot-menu ul li{
         display: block;
-        margin: 20px;
+        margin: 14px;
         text-align: center;
     }
     .foot-menu{
@@ -378,4 +393,9 @@ hr{
 }
 .info-container{
     text-align: center;
+}
+
+
+.box-banner img{
+    border-radius: 5px;
 }
