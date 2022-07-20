@@ -278,6 +278,8 @@ hr{
     }
     footer{
         height: 50vh;
+        margin: 0;
+       
     }
     .foot-menu ul li{
         display: block;
@@ -285,10 +287,10 @@ hr{
         text-align: center;
     }
     .foot-menu{
-        padding-bottom: 70px;
+        padding-bottom: 0;
     }
     .foot-title{
-        padding-top: 50px;
+        padding-top: 10px;
     }
 
     
